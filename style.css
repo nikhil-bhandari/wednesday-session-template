@@ -1,0 +1,91 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+.banner {
+    background-color: #5F478A;
+    color: #fff;
+    padding: 50px 35px;
+    box-sizing: border-box;
+
+}
+
+.avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    left: 40px;
+    background-color: #fff;
+    border: thick solid #5F478A;
+    position: absolute;
+}
+
+.avatar img {
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+ul.agenda li {
+    margin-bottom: 10px;
+}
+
+ul.agenda li, p.target-audience, p.key-takeaways {
+    font-size: 25px;
+}
+
+h1.agenda, h1.target-audience, h1.key-takeaways {
+    font-size: 35px;
+}
+
+ul.agenda, p.target-audience, p.key-takeaways {
+    margin-bottom: 100px;
+}
+
+.top {
+    position: relative;
+    height: 250px;
+}
+
+.company-title {
+    text-align: right;
+    margin: 35px 35px 0 0;
+    font-size: 22px;
+}
+
+.banner {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 40px;
+}
+
+.banner h1 {
+    margin: 0;
+    text-align: right;
+    font-size: 35px
+}
+
+.banner h6 {
+    text-align: right;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    padding: 0
+}
+
+.venue p {
+    font-size: 20px;
+    text-align: right;
+    margin-right: 35px;
+}
+
+.venue p span {
+    font-size: 35px
+}
+
+.description {
+    padding: 35px;
+}
